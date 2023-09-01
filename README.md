@@ -5,3 +5,9 @@ in speech. The autoregressive (AR) model captures the content information by mod
 from the first RVQ quantizer. The non-autoregressive (NAR) model complements paralinguistic
 information for the AR model by generating tokens from the subsequent quantizers conditioned on
 the first-layer tokens
+
+<br>
+<p align="center">
+    <img src="images/token_model.pdf" width="95%"> <br>
+    Overview
+</p>
