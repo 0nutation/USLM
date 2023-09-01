@@ -8,6 +8,6 @@ the first-layer tokens
 
 <br>
 <p align="center">
-    <img src="images/token_model.pdf" width="95%"> <br>
+    <img src="images/overview.png" width="95%"> <br>
     Overview
 </p>
