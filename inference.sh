@@ -16,6 +16,13 @@ if [ ! -e "${st_dir}/config.json" ];then
     cd -
 fi 
 
+if [ ! -e "${uslm_dir}/USLM.pt" ];then
+    cd ${uslm_dir}
+    wget "https://huggingface.co/fnlp/USLM/resolve/main/USLM_libritts/USLM.pt"
+    wget "https://huggingface.co/fnlp/USLM/resolve/main/USLM_libritts/unique_text_tokens.k2symbols" 
+    cd -
+fi 
+
 
 python3 bin/infer.py --output-dir ${out_dir}/ \
     --model-name uslm --norm-first true --add-prenet false \
