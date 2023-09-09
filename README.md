@@ -79,8 +79,8 @@ Download pre-trained USLM models:
 uslm_dir="ckpt/uslm/"
 mkdir -p ${uslm_dir}
 cd ${uslm_dir}
-wget "https://huggingface.co/fnlp/USLM/tree/main/USLM_libritts/USLM.pt"
-wget "https://huggingface.co/fnlp/USLM/tree/main/USLM_libritts/unique_text_tokens.k2symbols" 
+wget "https://huggingface.co/fnlp/USLM/resolve/main/USLM_libritts/USLM.pt"
+wget "https://huggingface.co/fnlp/USLM/resolve/main/USLM_libritts/unique_text_tokens.k2symbols" 
 cd -
 ```
 
