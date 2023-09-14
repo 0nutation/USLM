@@ -1,5 +1,5 @@
 # USLM: Unified Speech Language Model
-<a href='https://github.com/ZhangXInFD/SpeechTokenizer'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2308.16692'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://0nutation.github.io/SpeechTokenizer.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2308.16692'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 ## Introduction
 Build upon [SpeechTokenizer](https://github.com/ZhangXInFD/SpeechTokenizer), USLM consists of autoregressive and non-autoregressive models, it can hierarchically model information in speech. The autoregressive (AR) model captures the content information by modeling tokens from the first RVQ quantizer. The non-autoregressive (NAR) model complements paralinguistic information for the AR model by generating tokens from the subsequent quantizers conditioned on the first-layer tokens.
